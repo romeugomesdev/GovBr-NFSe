@@ -1,0 +1,19 @@
+{
+    "name": "alfanetworks/govbr-nfse",
+    "description": "Emissor NFS-e padrão GovBR",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlfaNetworks\\GovbrNfse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romeu Gomes de Sousa",
+            "email": "romeu.gomes@alfanetworks.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
