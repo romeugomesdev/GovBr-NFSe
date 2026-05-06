@@ -17,7 +17,7 @@ class EmitirNfse
     public function __construct ($xml='', $municipio=0)
     {
         $this->xml = $xml;
-        if(!in_array($municipio,array_keys($municipios),false)) {
+        if(!in_array($municipio, array_keys($this->municipios), false)) {
             throw new Exception("Municipio não atendido");
         }
         $this->municipio = $municipio;
