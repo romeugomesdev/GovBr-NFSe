@@ -7,14 +7,14 @@ class EmitirNfse
     private $xml;
     private $municipio;
     private $municipios = array(
-        '3304557' => array(
+        3304557 => array(
             'uf_ibge'=>33,
             'uf'=>'RJ',
             'nome'=>'Rio de Janeiro'
         )
-        );
+    );
 
-    public function __construct ($xml, $municipio)
+    public function __construct ($xml='', $municipio=0)
     {
         $this->xml = $xml;
         if(!in_array($municipio,array_keys($municipios),false)) {
