@@ -1,6 +1,6 @@
 <?php
 
-namespace Alfa\GovbrNfse;
+namespace romeugomesdev\GovbrNfse; 
 
 class EmitirNfse
 {
