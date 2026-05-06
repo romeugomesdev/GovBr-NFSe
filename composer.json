@@ -1,5 +1,5 @@
 {
-    "name": "alfanetworks/govbr-nfse",
+    "name": "romeutmc/govbr-nfse",
     "description": "Emissor NFS-e padrão GovBR",
     "type": "library",
     "license": "MIT",
