@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "AlfaNetworks\\GovbrNfse\\": "src/"
+            "romeugomesdev\\GovbrNfse\\": "src/"
         }
     },
     "authors": [
